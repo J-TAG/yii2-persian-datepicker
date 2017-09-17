@@ -1,0 +1,21 @@
+{
+    "name": "puresoft/yii2-persian-datepicker",
+    "description": "This extension will display a Persian datepicker.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","persian","jalali","date","datepicker","time","calendar"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hesam Gholami",
+            "email": "hesamgholami@yahoo.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "puresoft\\datepicker\\": ""
+        }
+    }
+}
