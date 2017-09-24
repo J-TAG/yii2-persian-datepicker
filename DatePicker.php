@@ -7,29 +7,22 @@ use yii\bootstrap\InputWidget;
 use yii\helpers\Json;
 
 /**
- * This is just an example.
+ * This widget can be used to display Persian date picker.
  */
 class DatePicker extends InputWidget
 {
-    /**
-     * @var array the options for the Persian Bootstrap DatePicker plugin.
-     * Please refer to the Persian Bootstrap DatePicker plugin Web page for possible options.
-     * @see http://babakhani.github.io/PersianWebToolkit/doc/datepicker/#/options/
-     */
-    public $clientOptions = [];
-
     /**
      * @var array HTML attributes to render on the container
      */
     public $containerOptions = [];
 
     /**
-     * @var string the size of the input ('lg', 'md', 'sm', 'xs')
+     * @var string The size of the input ('lg', 'md', 'sm', 'xs')
      */
     public $size;
 
     /**
-     * @var string the addon markup if you wish to display the input as a component then set it to
+     * @var string The addon markup if you wish to display the input as a component then set it to
      * something like '<i class="glyphicon glyphicon-calendar"></i>'.
      */
     public $addon = false;
@@ -40,7 +33,7 @@ class DatePicker extends InputWidget
     public $template = '{input}{addon}';
 
     /**
-     * @var bool whether to render the input as an inline calendar
+     * @var bool Whether to render the input as an inline calendar
      */
     public $inline = false;
 

@@ -1,6 +1,6 @@
 The PureSoft Persian Date Picker
 ================================
-This extension will display a Persian datepicker.
+This extension will display a Persian date picker.
 
 Installation
 ------------
@@ -28,4 +28,9 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \puresoft\datepicker\AutoloadExample::widget(); ?>```
+<?= \puresoft\datepicker\DatePicker::widget(); ?>
+```
+
+Note
+-----
+As long as Persian date picker is in beta state, this extension will be also kept in beta mode. When the first stable version of Persian date picker goes available, this extension will follow along.
