@@ -28,7 +28,7 @@ class DatePicker extends InputWidget
     public $addon = false;
 
     /**
-     * @var string the template to render the input.
+     * @var string The template to render the input.
      */
     public $template = '{input}{addon}';
 

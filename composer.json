@@ -14,7 +14,7 @@
     ],
     "require": {
         "yiisoft/yii2": "^2",
-        "npm-asset/persian-datepicker": "@beta"
+        "npm-asset/persian-datepicker": "^1.0"
     },
     "autoload": {
         "psr-4": {

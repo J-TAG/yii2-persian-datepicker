@@ -15,7 +15,7 @@ class PersianDateAsset extends AssetBundle
 {
     public $sourcePath = "@npm/persian-date/dist";
     public $js = [
-        '0.1.8b/persian-date-0.1.8b.js',
+        'persian-date.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
